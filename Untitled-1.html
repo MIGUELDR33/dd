@@ -1,0 +1,42 @@
+<!doctype html5>
+<html>
+    <head>
+        <link real="style/sheef" type=""text/css" href="css/bootstrap.min.css"/>
+        <title> formulario</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-2">
+                <div class="col-sm-12 col-mal-4  col-lg-6">
+                    <form action="? php echo $_Server['php. self'];?">
+                    <input type="text" name="txt nombre" placeholder="nombre" class="from_control"/>
+                </div>
+                <div class="col-sm-12 col-mal-4 col-lg-4">
+                    <input type="text" name="txt ApellidoP" placeholder="ApellidoP" class="from_control"/>
+                </div>
+                <div class="col-sm-12 col-mal-4 col-lg-4">
+                    <input type="text" name="txt ApellidoM" placeholder="ApellidoM" class="from_control"/>
+             </div>
+         </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-sm-12 col-mal-6 col-lg-6">
+                <input type="tel" name="telefono" placeholder="55-55-55-55" class="form_control"/>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-sm-12 col-mal-6 col-lg-6">
+                <input type="email" name="correo" placeholder="correo" class="form_control"/>
+            </div>
+        </div>    
+        <div class="row mt-2">
+            <div class="col-sm-12 col-mal-12 col-lg-12">
+            <input type="password" name="pass" placeholder="password" class="form_control"/>
+        </div>
+        <div class="row mt-2">
+            <div class="col-sm-12 col-mal-12 col-lg-12">
+                <input type="submit" value="enviar" name="btn">
+            </div>    
+        </div>
+    </body>
+</html>
